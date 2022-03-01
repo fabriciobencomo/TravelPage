@@ -1,0 +1,27 @@
+{
+  "name": "travelpage",
+  "version": "1.0.0",
+  "description": "beautiful places for Traveler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fabriciobencomo/TravelPage.git"
+  },
+  "keywords": [
+    "traveling"
+  ],
+  "author": "Fabricio Bencomo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fabriciobencomo/TravelPage/issues"
+  },
+  "homepage": "https://github.com/fabriciobencomo/TravelPage#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.7",
+    "tailwindcss": "^3.0.23"
+  }
+}
