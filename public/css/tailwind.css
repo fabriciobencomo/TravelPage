@@ -480,6 +480,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 1.5rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -506,6 +510,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-96 {
   height: 24rem;
+}
+
+.h-64 {
+  height: 16rem;
+}
+
+.h-auto {
+  height: auto;
 }
 
 .w-full {
@@ -560,6 +572,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
 }
 
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+
 .overflow-x-auto {
   overflow-x: auto;
 }
@@ -595,6 +613,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(143 162 6 / var(--tw-bg-opacity));
 }
 
+.bg-gray-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+}
+
 .bg-norway {
   background-image: url('../img/norway.jpg');
 }
@@ -617,6 +640,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .p-3 {
   padding: 0.75rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
 }
 
 .py-4 {
@@ -721,6 +748,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
 }
 
 .shadow-sm {
